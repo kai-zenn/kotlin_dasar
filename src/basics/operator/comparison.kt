@@ -1,7 +1,7 @@
 package basics.operator
 
 fun main(){
-    // digunakan untuk pengkondisian boolean
+    // perbandingan yang digunakan untuk pengkondisian boolean
     val a = 5
     val b = 5
     val isEqual = (a == b) // true
