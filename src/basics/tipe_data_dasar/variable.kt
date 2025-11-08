@@ -1,4 +1,4 @@
-package basics
+package basics.tipe_data_dasar
 
 fun main(){
     // dynamically typing in kotlin
@@ -9,6 +9,7 @@ fun main(){
     var namaPertama: String = "kotlin" // sah aja, tapi redundant
     var namaKedua: String = "keren" // kotlin sudah memiliki fitur dynamic typing
     var umurGwe: Int = 17
+
     // mendeklarasikan value setelah memberikan tipe kepada variabel
     var namaGwe: String
     namaGwe = "gibrant"
