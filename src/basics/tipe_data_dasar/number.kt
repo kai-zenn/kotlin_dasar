@@ -25,4 +25,14 @@ fun main(){
     //double maksimal sampai 15 angka dibelakang koma, lebih presisi
     val num2: Double = 3.14
     println(num2)
+
+
+    /*literal number*/
+    // nilai angka yang langsung di tulis di kode, bukan berasal dari variabel atau input
+    var decimalLiteral: Int = 100
+    var hexadecimalLiteral: Int = 0xff
+    var binaryLiteral: Int = 0b010100
+
+    /* underscore untuk mempermudah membaca angka*/
+    var balance: Int = 10_000_000
 }
