@@ -1,4 +1,4 @@
-package basics.elif
+package basics.condition
 
 fun main(){
     val x = 100;
