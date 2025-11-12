@@ -40,4 +40,14 @@ fun main(){
         i++
     } // outputnya akan dimulai dari 5, karena meng skip 4
 
+    println("masukan angka yang ingin anda hitung: ")
+    var angkaKamu = readln().toIntOrNull()?:0
+    var sum = 0
+    while (i < angkaKamu) {
+        println("masukan angka ke #${i + 1}")
+        var angka = readln().toIntOrNull()?:0
+        sum += angka
+        i++
+    }
+    println("totalnya adalah $sum")
 }
