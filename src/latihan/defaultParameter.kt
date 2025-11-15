@@ -1,29 +1,7 @@
 package latihan
 
-fun displayAlertMessage(userOperatingSystem: String? = null, userEmailId: String?) {
-    return if (userOperatingSystem == "Windows") {
-        when(userEmailId){
-            "user_one@gmail.com" -> println("There's a new sign-in request on $userOperatingSystem for your Google Account user_one@gmail.com.")
-            "user_two@gmail.com"-> println("There's a new sign-in request on $userOperatingSystem for your Google Account user_two@gmail.com.")
-            "user_three@gmail.com"-> println("There's a new sign-in request on $userOperatingSystem for your Google Account user_three@gmail.com.")
-            else -> println("unknown email")
-        }
-    } else if (userOperatingSystem == "Mac OS") {
-        when(userEmailId){
-            "user_one@gmail.com" -> println("There's a new sign-in request on $userOperatingSystem for your Google Account user_one@gmail.com.")
-            "user_two@gmail.com"-> println("There's a new sign-in request on $userOperatingSystem for your Google Account user_two@gmail.com.")
-            "user_three@gmail.com"-> println("There's a new sign-in request on $userOperatingSystem for your Google Account user_three@gmail.com.")
-            else -> println("unknown email")
-        }
-    } else {
-        when(userEmailId){
-            "user_one@gmail.com" -> println("There's a new sign-in request on $userOperatingSystem for your Google Account user_one@gmail.com.")
-            "user_two@gmail.com"-> println("There's a new sign-in request on $userOperatingSystem for your Google Account user_two@gmail.com.")
-            "user_three@gmail.com"-> println("There's a new sign-in request on $userOperatingSystem for your Google Account user_three@gmail.com.")
-            else -> println("unknown email")
-        }
-        println("There's a new sign-in request on Unknown OS for your Google Account $userEmailId")
-    }
+fun displayAlertMessage(userOperatingSystem: String? = "UnknownOS", userEmailId: String?): String {
+    return "There is a new sign-in request on $userOperatingSystem for your Google Account $userEmailId."
 }
 
 fun main(){
