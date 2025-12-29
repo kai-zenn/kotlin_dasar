@@ -5,8 +5,8 @@ fun main(){
     val etalase: List<String> = listOf("indomie", "mie gaga", "mie sedap");
     //mutable list
     val mutableList = mutableListOf("shaka", "sakha", "sahka", "saput");
-    mutableList.add("burung gede") // Add an element
-    mutableList.removeAt(0) // Remove an element by index
+    mutableList.add("burung gede") // menambahkan element
+    mutableList.removeAt(0) // menghapus element berdasarkan index nya
 
     println(etalase)
     println(mutableList)
