@@ -1,4 +1,4 @@
-package basics.condition
+package latihan
 
 fun main(){
     println("masukan golongan gaji anda:");
