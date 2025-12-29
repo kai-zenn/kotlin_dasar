@@ -1,4 +1,4 @@
-package basics.controlFlow
+package basics.looping
 
 fun main(){
     var mobil = arrayOf("beemwe", "polpo", "lada", "toyota", "mazda")

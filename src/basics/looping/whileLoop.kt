@@ -1,4 +1,4 @@
-package basics.controlFlow
+package basics.looping
 
 fun main(){
     var i = 0;
@@ -14,7 +14,6 @@ fun main(){
     while (condition) {
         println("hasil while condition")
     } // tidak akan menghasilkan iterasi karena kondisinya tidak terpenuhi
-
 
     /* mengekesekusi kode didalamnya minimal sekali */
     do {
