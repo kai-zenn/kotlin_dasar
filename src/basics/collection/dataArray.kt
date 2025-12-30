@@ -1,5 +1,6 @@
 package basics.collection
 
+/* 	Collection of elements */
 fun main(){
     // type static array
     val kelas:Array<Int> = arrayOf(10, 11, 12, 13);

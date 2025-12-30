@@ -1,5 +1,6 @@
 package basics.collection
 
+/* Ordered collection of elements */
 fun main(){
     //immutable list
     val etalase: List<String> = listOf("indomie", "mie gaga", "mie sedap");

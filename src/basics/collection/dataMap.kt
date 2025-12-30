@@ -1,5 +1,7 @@
 package basics.collection
 
+/* Collection of unique key-value pairs */
+
 fun main() {
     /* Immutable maps*/
     val nilaiMurid: Map<String, Int> = mapOf("joko" to 90, "pascabowo" to 11, "sahroni" to 69);
