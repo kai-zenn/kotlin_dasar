@@ -21,10 +21,14 @@ fun birthdayGreeting(): String {
     return "$nameGreeting \n $ageGreeting"
 }
 
+// single expresion function
+fun multiply(number: Int): Int = number * 2;
+
 fun main(){
     fungsiSapaan()
     val hitung = luasPersegiPanjang(10, 8)
     val greeting = birthdayGreeting()
+    println(multiply(10))
     println(hitung)
     print(greeting)
 }
